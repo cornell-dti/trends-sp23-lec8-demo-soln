@@ -3,6 +3,8 @@ export type Task = {
   checked: boolean
 }
 
-export type TaskWithId = Task & {
+export type TaskId = {
   id: string
 }
+
+export type TaskWithId = Task & TaskId
